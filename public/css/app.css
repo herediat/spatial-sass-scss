@@ -6126,6 +6126,11 @@ body {
 }
 .objects p {
   flex: 1;
+  text-transform: uppercase;
+  color: #fff;
+}
+.objects p span {
+  text-decoration-style: solid;
 }
 .objects ul {
   flex: 1;
@@ -6133,11 +6138,25 @@ body {
 }
 .objects ul li {
   margin: auto;
+  list-style-type: none;
+}
+.objects ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .title {
   text-align: center;
-  transform: translate(0, 200%);
+  transform: translate(0, 130%);
+}
+.title h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #fff;
+}
+.title p {
+  color: #fff;
 }
 .title button {
   background: #fd0000;
@@ -6145,6 +6164,10 @@ body {
   padding: 15px;
   padding-left: 3%;
   padding-right: 3%;
+  margin-top: 2%;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=app.css.map */
