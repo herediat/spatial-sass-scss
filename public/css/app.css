@@ -15,7 +15,7 @@
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-git }
+}
 
 .fa-lg {
   font-size: 1.3333333333em;
@@ -6110,6 +6110,41 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+.content {
+  background-image: url("/public/images/banner.jpg");
+  height: 100vh;
+}
+
+.objects {
+  display: flex;
+}
+.objects p {
+  flex: 1;
+}
+.objects ul {
+  flex: 1;
+  display: flex;
+}
+.objects ul li {
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  transform: translate(0, 200%);
+}
+.title button {
+  background: #fd0000;
+  color: #fff;
+  padding: 15px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 /*# sourceMappingURL=app.css.map */
