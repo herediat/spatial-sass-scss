@@ -6246,4 +6246,62 @@ body {
   text-transform: uppercase;
 }
 
+.section3 {
+  margin-left: 19%;
+  margin-right: 19%;
+  height: 70vh;
+  display: flex;
+}
+
+.mauris {
+  text-align: start;
+}
+.mauris h2 {
+  text-transform: uppercase;
+}
+.mauris p {
+  text-transform: uppercase;
+  color: #acabab;
+}
+
+.mont_driveway {
+  display: flex;
+}
+.mont_driveway .ballpic1 img {
+  border-radius: 100%;
+  float: right;
+  margin: 20px 20px;
+}
+.mont_driveway .ballpic1 h3 {
+  text-align: end;
+}
+.mont_driveway .ballpic1 p {
+  text-align: end;
+}
+.mont_driveway .ballpic2 img {
+  border-radius: 100%;
+  float: left;
+  margin: 20px 20px;
+}
+
+.lilbridge {
+  display: flex;
+}
+.lilbridge .ballpic3 img {
+  border-radius: 100%;
+  float: right;
+  margin: 20px 20px;
+}
+.lilbridge .ballpic3 h3 {
+  text-align: end;
+}
+.lilbridge .ballpic3 p {
+  text-align: end;
+}
+.lilbridge .ballpic4 img {
+  border-radius: 100%;
+  float: left;
+  margin: 20px 20px;
+}
+
 /*# sourceMappingURL=app.css.map */
