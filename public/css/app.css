@@ -6195,4 +6195,55 @@ body {
   padding-top: 4%;
 }
 
+.fusce {
+  height: 90vh;
+  background-color: #eed4d4;
+}
+.fusce .titre {
+  padding-top: 2%;
+  text-align: center;
+}
+.fusce .pictures {
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+.fusce .pictures p {
+  text-align: center;
+}
+.fusce .pictures .beach {
+  background-color: #dab9b9;
+}
+.fusce .pictures .hills {
+  background-color: #dab9b9;
+  margin-left: 2%;
+}
+.fusce .btn {
+  text-align: center;
+}
+.fusce .btn .red {
+  background-color: red;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 2%;
+  border-radius: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.fusce .btn .black {
+  background-color: #000;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 2%;
+  border-radius: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=app.css.map */
