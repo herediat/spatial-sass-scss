@@ -2,8 +2,8 @@ body
     margin: 0
 
 .content 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) 
-    background-image: url("/public/images/banner.jpg")
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("/public/images/banner.jpg") 
+    background-attachment: fixed
     height: 100vh
     background-size: cover
 .objects
@@ -26,7 +26,7 @@ body
                 text-transform: uppercase
 .title
     text-align: center
-    transform: translate(0, 130%)
+    transform: translate(0, 100%)
     h1
        text-transform: uppercase
        font-size: 3em
@@ -46,7 +46,7 @@ body
 
 //Portable
 @media screen and ( max-width: 620px )
-.objects
-    a
-        margin-right: 10px
+    .objects
+        a
+            margin-right: 10px
     

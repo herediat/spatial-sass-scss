@@ -6117,8 +6117,8 @@ body {
 }
 
 .content {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5));
-  background-image: url("/public/images/banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("/public/images/banner.jpg");
+  background-attachment: fixed;
   height: 100vh;
   background-size: cover;
 }
@@ -6150,7 +6150,7 @@ body {
 
 .title {
   text-align: center;
-  transform: translate(0, 130%);
+  transform: translate(0, 100%);
 }
 .title h1 {
   text-transform: uppercase;
@@ -6172,12 +6172,12 @@ body {
   text-transform: uppercase;
 }
 
-.objects a {
-  margin-right: 10px;
+@media screen and (max-width: 620px) {
+  .objects a {
+    margin-right: 10px;
+  }
 }
-
 .phrase {
-  height: 45vh;
   display: flex;
   margin-left: 25%;
   margin-right: 25%;
@@ -6201,21 +6201,22 @@ body {
   padding-top: 4%;
 }
 
-.phrase {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
-}
+@media screen and (max-width: 620px) {
+  .phrase {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
 
-.paragraph {
-  display: flex;
-  margin: auto;
+  .paragraph {
+    display: flex;
+    margin: auto;
+  }
+  .paragraph .paragraph1 {
+    padding-right: 20%;
+    flex-wrap: wrap;
+  }
 }
-.paragraph .paragraph1 {
-  padding-right: 20%;
-  flex-wrap: wrap;
-}
-
 .fusce {
   height: 90vh;
   background-color: #eed4d4;
@@ -6267,14 +6268,15 @@ body {
   text-transform: uppercase;
 }
 
-.pictures {
-  flex-direction: column;
-  height: 70vh;
+@media screen and (max-width: 620px) {
+  .pictures {
+    flex-direction: column;
+    height: 70vh;
+  }
+  .pictures img {
+    width: 100%;
+  }
 }
-.pictures img {
-  width: 100%;
-}
-
 .section3 {
   height: 70vh;
   display: flex;
@@ -6349,36 +6351,37 @@ body {
   margin: 20px 20px;
 }
 
-.section3 {
-  flex-wrap: wrap;
-  height: 150vh;
+@media screen and (max-width: 620px) {
+  .section3 {
+    flex-wrap: wrap;
+    height: 150vh;
+  }
+  .section3 .mont_driveway {
+    flex-direction: column;
+  }
+  .section3 .mont_driveway img {
+    float: right;
+    flex-direction: column;
+  }
+  .section3 .mont_driveway h3 {
+    text-align: start;
+  }
+  .section3 .mont_driveway p {
+    text-align: start;
+  }
+  .section3 .lilbridge {
+    flex-direction: column;
+  }
+  .section3 .lilbridge img {
+    float: right;
+  }
+  .section3 .lilbridge h3 {
+    text-align: start;
+  }
+  .section3 .lilbridge p {
+    text-align: start;
+  }
 }
-.section3 .mont_driveway {
-  flex-direction: column;
-}
-.section3 .mont_driveway img {
-  float: right;
-  flex-direction: column;
-}
-.section3 .mont_driveway h3 {
-  text-align: start;
-}
-.section3 .mont_driveway p {
-  text-align: start;
-}
-.section3 .lilbridge {
-  flex-direction: column;
-}
-.section3 .lilbridge img {
-  float: right;
-}
-.section3 .lilbridge h3 {
-  text-align: start;
-}
-.section3 .lilbridge p {
-  text-align: start;
-}
-
 .section4 {
   background-image: url("/public/images/banner.jpg");
   height: 20vh;
